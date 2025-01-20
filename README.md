@@ -1,4 +1,4 @@
-# React and Node.js Fullstack Project
+# MERN Stack Booking-clone
 
 This repository contains both the frontend and backend for a fullstack MERN Booking-clone application. The frontend is built with React, and the backend uses Node.js with Express.
 
