@@ -1,0 +1,30 @@
+.featuredProperty{
+    display: flex;
+    height: 190px;
+    overflow: hidden;
+    width: 1024px;
+    /* align-items: center; */
+    justify-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.featuredPropertyItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredPropertyItem>img{
+    width: 190px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.featuredPropertyItem>h1{
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(145, 66, 66);
+}
+.featuredPropertyItem>h2{
+    font-size: 14px;
+    color: grey;
+}

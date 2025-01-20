@@ -1,0 +1,30 @@
+.Navbar{
+    background-color: var(--wBlue);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.NavbarContainer{
+    width: 100%;
+    max-width: 1024px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 500;
+}
+
+
+
+.nbtns{
+    color: var(--wBlue);
+    margin-left: 20px;
+    padding: 5px 10px ;
+    border: none;
+    cursor: pointer;
+}

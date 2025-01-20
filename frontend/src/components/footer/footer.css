@@ -1,0 +1,33 @@
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerItemContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+.flistItem{
+    list-style-type: none;
+    color: var(--wBlue);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer>p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}

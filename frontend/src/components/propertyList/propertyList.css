@@ -1,0 +1,51 @@
+.propertyList{
+    width: 1024px;
+    height: 380px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.propertyListItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 390px;
+    width: 240px;
+}
+
+.propertyListImg{
+    width: 240px;
+    height: 250px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.propertyListItem>h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.city{
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 300;
+}
+.propertyRating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.propertyRate{
+    cursor: pointer;
+    background-color: var(--wBlue);
+    padding: 5px 3px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --wBlue: #003580;
+    --wLightBlue: #0071C2;
+    --wYellow: #FEBB02;
+}
