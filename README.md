@@ -89,7 +89,7 @@ The backend will run on `http://localhost:8800`.
    npm start
    ```
 
-The frontend will run on `http://localhost:5174` by default.
+The frontend will run on `http://localhost:5173` by default.
 
 ---
 
